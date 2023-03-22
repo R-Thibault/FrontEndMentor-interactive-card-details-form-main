@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<div class="header">
+<header>
   <div class="card-display">
   <div class="bg-card-back">
      <p id="CVCText" class="card-back-number cvc">000</p>
@@ -29,11 +29,11 @@
     </div>
   </div>
 </div>
-</div>
+</header>
 <main>
   <form id="form" class="card-form">
 <div class="flex-form">
- <label for="cardholder" class="label">Cardholder Name</label>
+ <label for="cardHolder" class="label"><h1>Cardholder Name</h1></label>
   <input id="cardHolder" type="text" placeholder="e.g. Jane Appleseed" class="input" >
   <p class="error" id="cardHolderError" ></p> 
 </div>
@@ -43,7 +43,7 @@
   <p class="error" id="cardNumberError"></p>
 </div>
 <div class="exp-date-cvc">
-   <label for="expDate" class="label label-date">Exp. Date (MM/YY)</label> 
+   <label for="expDateMM" class="label label-date">Exp. Date (MM/YY)</label> 
    <label for="CVC" class="label label-cvc">CVC</label> 
    <input id="expDateMM" type="number"placeholder="MM" class="input input-mm" onkeypress="return inputLimit(event)" >
    <p class="error" id="expDateMMError"></p> 
@@ -63,12 +63,5 @@
   </div>
   <button class="continue" id="continueButton">Continue</button>
 </div>
-  <!-- Completed state start -->
-
-  
-  
-  
-  
- 
 </body>
 </html>

@@ -100,7 +100,7 @@ body{
   width: 100vw;
 }
 
-.header {
+header {
   background: no-repeat url(images/bg-main-mobile.png);
   background-size: cover;
   width: auto;
